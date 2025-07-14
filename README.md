@@ -21,6 +21,28 @@ Sebelum kita mulai, pastikan Anda memiliki ini:
 * **Python:** Versi 3.x terinstal.
 * **Koneksi Internet:** Ini penting! Google Web Speech API butuh internet yang stabil untuk bekerja.
 * **Mikrofon:** Tentu saja, siapkan mikrofon yang berfungsi dengan baik.
+* **Git:** Terinstal di sistem Anda (untuk mengunduh proyek).
+
+---
+
+## ⬇️ Mengunduh Proyek (Git Clone)
+
+Untuk mendapatkan salinan lokal dari repositori ini, ikuti langkah-langkah berikut:
+
+1.  **Buka Terminal atau Command Prompt.**
+2.  **Pindah ke direktori tempat Anda ingin menyimpan proyek.** Contoh:
+    ```bash
+    cd Documents/GitHub
+    ```
+3.  **Lakukan `git clone`** dengan URL repositori Anda. Ganti `[URL_REPOSITORI_ANDA]` dengan URL sebenarnya dari repositori GitHub Anda (misalnya `https://github.com/namauser/nama-repo.git`).
+    ```bash
+    git clone [URL_REPOSITORI_ANDA]
+    ```
+4.  **Masuk ke direktori proyek yang baru di-clone:**
+    ```bash
+    cd nama-folder-proyek-yang-di-clone # Sesuaikan dengan nama folder repositori Anda
+    ```
+    (Biasanya nama folder akan sama dengan nama repositori.)
 
 ---
 
@@ -88,7 +110,7 @@ Siap untuk mulai berbicara dengan komputer Anda?
     Navigasikan ke direktori tempat `main.py` berada.
 
     ```bash
-    cd D:\Voice Asistent\SpeechRecogniton
+    cd D:\Voice Asistent\SpeechRecogniton # Ini adalah contoh, sesuaikan dengan lokasi clone Anda
     ```
 
 3.  **Aktifkan Lingkungan Virtual (Jika Belum Aktif):**
@@ -140,7 +162,7 @@ Mengalami kendala? Cek bagian ini:
         1.  **Koneksi Internet Stabil:** Pastikan internet Anda benar-benar stabil saat Anda berbicara dan aplikasi memproses suara. Kadang koneksi bisa "putus-nyambung" saat upload data.
         2.  **Kualitas Audio Optimal:**
             * **Bicara Jelas & Dekat:** Dekatkan mulut Anda ke mikrofon dan bicara dengan artikulasi yang jelas.
-            * **Volume Ideal:** Sesuaikan volume mikrofon di pengaturan suara sistem; jangan terlalu pelan atau terlalu keras hingga suara pecah/distorsi.
+            * **Volume Ideal:** Sesuaikan volume mikrofon Anda di pengaturan suara sistem (tidak terlalu pelan, tidak terlalu keras hingga distorsi).
             * **Minimalkan Kebisingan:** Carilah tempat yang tenang. Matikan TV, musik, atau kipas angin yang berisik.
         3.  **Pengaturan Bahasa yang Tepat:** Ini *sering sekali* jadi masalah! Pastikan di kode Anda:
             * Jika Anda bicara **Bahasa Indonesia**, gunakan: `text = r.recognize_google(audio, language="id-ID")`
@@ -150,9 +172,7 @@ Mengalami kendala? Cek bagian ini:
     * **Apa artinya:** Ada masalah saat aplikasi mencoba menghubungi server Google.
     * **Solusi:**
         1.  **Cek Internet Anda Lagi:** Pastikan koneksi benar-benar aktif dan tidak ada kendala jaringan.
-        2.  **Periksa Firewall / Antivirus:** Terkadang, software keamanan memblokir Python untuk mengakses internet. Coba nonaktifkan sementara (dan aktifkan kembali setelah pengujian!).
-        3.  **Nonaktifkan Proxy/VPN:** Jika Anda menggunakannya, coba matikan sementara.
+        2.  **Periksa Firewall atau Antivirus Anda.** Coba nonaktifkan sementara untuk pengujian (ingat untuk mengaktifkannya kembali setelah selesai!). Terkadang mereka memblokir aplikasi untuk mengakses jaringan eksternal.
+        3.  Jika Anda menggunakan **Proxy atau VPN**, coba nonaktifkan sementara.
 
 ---
-
-Semoga berhasil dengan proyek pengenalan suara Anda! Jika ada pertanyaan lain, jangan ragu bertanya.
