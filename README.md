@@ -34,13 +34,13 @@ Untuk mendapatkan salinan lokal dari repositori ini, ikuti langkah-langkah berik
     ```bash
     cd Your/Directory
     ```
-3.  **Lakukan `git clone`** dengan URL repositori Anda. Ganti `[URL_REPOSITORI_ANDA]` dengan URL sebenarnya dari repositori GitHub Anda (misalnya `https://github.com/herros27/SpeechRecogniton.git`).
+3.  **Lakukan `git clone`** dengan URL repositori Anda. Ganti `https://github.com/herros27/SpeechRecogniton.git` dengan URL sebenarnya dari repositori GitHub Anda (misalnya `https://github.com/herros27/SpeechRecogniton.git`).
     ```bash
-    git clone [URL_REPOSITORI_ANDA]
+    git clone https://github.com/herros27/SpeechRecogniton.git
     ```
 4.  **Masuk ke direktori proyek yang baru di-clone:**
     ```bash
-    cd nama-folder-proyek-yang-di-clone # Sesuaikan dengan nama folder repositori Anda
+    cd Your/Directory # Sesuaikan dengan nama folder repositori Anda
     ```
     (Biasanya nama folder akan sama dengan nama repositori.)
 
