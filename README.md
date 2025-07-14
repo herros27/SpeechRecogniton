@@ -32,7 +32,7 @@ Untuk mendapatkan salinan lokal dari repositori ini, ikuti langkah-langkah berik
 1.  **Buka Terminal atau Command Prompt.**
 2.  **Pindah ke direktori tempat Anda ingin menyimpan proyek.** Contoh:
     ```bash
-    cd Documents/GitHub
+    cd Your/Directory
     ```
 3.  **Lakukan `git clone`** dengan URL repositori Anda. Ganti `[URL_REPOSITORI_ANDA]` dengan URL sebenarnya dari repositori GitHub Anda (misalnya `https://github.com/namauser/nama-repo.git`).
     ```bash
