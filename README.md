@@ -34,7 +34,7 @@ Untuk mendapatkan salinan lokal dari repositori ini, ikuti langkah-langkah berik
     ```bash
     cd Your/Directory
     ```
-3.  **Lakukan `git clone`** dengan URL repositori Anda. Ganti `[URL_REPOSITORI_ANDA]` dengan URL sebenarnya dari repositori GitHub Anda (misalnya `https://github.com/namauser/nama-repo.git`).
+3.  **Lakukan `git clone`** dengan URL repositori Anda. Ganti `[URL_REPOSITORI_ANDA]` dengan URL sebenarnya dari repositori GitHub Anda (misalnya `https://github.com/herros27/SpeechRecogniton.git`).
     ```bash
     git clone [URL_REPOSITORI_ANDA]
     ```
